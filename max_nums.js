@@ -5,8 +5,6 @@ function find_max(arr) {
             max = arr[i];
         }
     }
-
     return max;
 }
-
 exports.find_max = find_max
