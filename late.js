@@ -1,5 +1,5 @@
 function running_late(date) {
-    const date = new Date(date);
+    date = new Date(date);
 
     if (date.getHours() >= 22) {
         return "It is late!"
